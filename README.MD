@@ -32,6 +32,11 @@ Weather API adalah aplikasi Node.js yang menyediakan informasi cuaca berdasarkan
 
     ```plaintext
     WEATHER_API_KEY=your_api_key_here
+    WEATHER_API_KEY=
+    
+    # redis
+    REDIS_USERNAME=
+    REDIS_PASSWORD=
     REDIS_HOST=localhost
     REDIS_PORT=6379
     ```
@@ -46,9 +51,29 @@ Weather API adalah aplikasi Node.js yang menyediakan informasi cuaca berdasarkan
 
 1. Mulai server:
 
+    **Mode Pengembangan**: untuk menjalankan server dalam mode pengembangan.
+
     ```bash
-    npm start
+    npm run dev
     ```
+
+    **Proses Build**: untuk membuild proyek.
+
+      ```bash
+      npm run build
+      ```
+
+    **Mode Produksi**: Setelah melakukan build, untuk menjalankan server dalam mode produksi.
+
+      ```bash
+      npm start
+      ```
+
+    **Build dan Start dalam Satu Perintah**: untuk melakukan build dan kemudian langsung menjalankan server dalam mode produksi.
+
+      ```bash
+      npm run start:prod
+      ```
 
 2. Server akan berjalan di `http://localhost:3000`.
 
