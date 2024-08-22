@@ -189,11 +189,8 @@ Weather API adalah aplikasi Node.js yang menyediakan informasi cuaca berdasarkan
   - `app.js`: Inisialisasi aplikasi Express.
 - `.env`: File konfigurasi lingkungan (tidak termasuk dalam repositori, buat manual).
 
-## Pengembangan
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan fork repositori ini dan kirimkan pull request. Anda juga bisa membuka isu jika menemukan bug atau memiliki permintaan fitur baru.
-
 ## Lisensi
 
-Proyek ini dilisensikan di bawah MIT License. Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut.
+Proyek ini dilisensikan di bawah MIT License.
+ <!-- Lihat file [LICENSE](LICENSE) untuk informasi lebih lanjut. -->
 
