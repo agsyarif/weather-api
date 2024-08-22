@@ -1,7 +1,5 @@
 import express from "express"
-// import weatherRoute from "./routes/weather.router";
 import weatherRouter from "./routes/weather.router.js";
-import { createClient } from "redis";
 
 const app = express()
 
